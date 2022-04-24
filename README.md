@@ -1,34 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![GitHub](https://img.shields.io/github/license/Wavy-Bot/website?color=A42E2B&logo=gnu&logoColor=white&style=for-the-badge)
+[![Discord](https://img.shields.io/discord/710436465938530307?color=%235865F2&label=Discord&logo=discord&logoColor=white&style=for-the-badge)](https://discord.wavybot.com)
 
-## Getting Started
+# Wavy website
 
-First, run the development server:
+This is Wavy's website and dashboard combo. It is made with Next.js and TailwindCSS to allow it to be snappy whilst being responsive at the same time. The dashboard part of it is coming soon.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Tools and services used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<table>
+  <tr>
+    <td align="center">
+        <a href="https://nextjs.org/">
+            <img src="https://simpleicons.org/icons/nextdotjs.svg" width="100px;" alt="Next.js"/>
+            <br/>
+            <sub>
+                <b>Next.js</b>
+            </sub>
+        </a>
+        <br/>
+    </td>
+    <td align="center">
+        <a href="https://tailwindcss.com/">
+            <img src="https://simpleicons.org/icons/tailwindcss.svg" width="100px;" alt="TailwindCSS"/>
+            <br/>
+            <sub>
+                <b>TailwindCSS</b>
+            </sub>
+        </a>
+        <br/>
+    </td>
+    <td align="center">
+        <a href="https://pages.cloudflare.com/">
+            <img src="https://simpleicons.org/icons/cloudflare.svg" width="100px;" alt="Cloudflare Pages"/>
+            <br/>
+            <sub>
+                <b>Cloudflare Pages</b>
+            </sub>
+        </a>
+        <br/>
+    </td>
+  </tr>
+</table>
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## How to use
+This is yet to be added, for now you can use [Wavy's Discord server](https://discord.gg/Nbcf36Fge5) to ask for help.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## To-do list
+Please look at the [GitHub Projects page](https://github.com/Wavy-Bot/website/projects/2).
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## License
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+See [LICENSE.MD](https://github.com/Wavy-Bot/website/blob/master/LICENSE.md).
