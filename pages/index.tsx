@@ -102,7 +102,7 @@ const Home: NextPage = () => {
                                                         <a href={contributor.html_url} target="_blank"
                                                            rel="noopener noreferrer">
                                                             <img src={contributor.avatar_url} alt={contributor.login}
-                                                                 className="w-full h-full rounded-full"/>
+                                                                 className="w-full h-full rounded-full" loading="lazy"/>
                                                         </a>
                                                     </div>
                                                 )
