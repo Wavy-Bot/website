@@ -92,7 +92,7 @@ const Home: NextPage = () => {
                                     </div>
                                 </div>
                             </> : <>
-                                <div className="w-full grid gap-1 grid-cols-6 sm:grid-cols-8 md:grid-cols-10 lg:grid-cols-12">
+                                <div className="flex flex-wrap gap-2">
                                     {
                                         data.map(function (contributor: { login: string; avatar_url: string; html_url: string; type: string; }) {
                                             if (contributor.type !== "Bot") {
