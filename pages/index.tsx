@@ -44,7 +44,7 @@ const Home: NextPage = () => {
             >
                 <path fillOpacity="1" d="M0,96L80,112C160,128,320,160,480,154.7C640,149,800,107,960,90.7C1120,75,1280,85,1360,90.7L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z" />
             </svg>
-            <div id="features" className="text-gray-900 bg-amber-500 text-center pt-6 pb-32">
+            <div id="features" className="text-gray-900 bg-amber-500 text-center pt-6 pb-16">
                 <div className="container px-5 mx-auto flex flex-wrap gap-20">
                     <div className="grid justify-items-center w-full">
                         <QuestionMarkCircleIcon className="w-16 h-16"/>
@@ -92,7 +92,7 @@ const Home: NextPage = () => {
                                     </div>
                                 </div>
                             </> : <>
-                                <div className="flex flex-wrap gap-2">
+                                <div className="w-full grid gap-1 grid-cols-6 sm:grid-cols-8 md:grid-cols-10 lg:grid-cols-12">
                                     {
                                         data.map(function (contributor: { login: string; avatar_url: string; html_url: string; type: string; }) {
                                             if (contributor.type !== "Bot") {

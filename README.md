@@ -45,9 +45,5 @@ This is Wavy's website and dashboard combo. It is made with Next.js and Tailwind
 ## How to use
 This is yet to be added, for now you can use [Wavy's Discord server](https://discord.gg/Nbcf36Fge5) to ask for help.
 
-## To-do list
-Please look at the [GitHub Projects page](https://github.com/Wavy-Bot/website/projects/2).
-
 ## License
-
-See [LICENSE.MD](https://github.com/Wavy-Bot/website/blob/master/LICENSE.md).
+See [LICENSE.MD](https://github.com/Wavy-Bot/website/blob/main/LICENSE.md).
