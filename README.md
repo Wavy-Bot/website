@@ -3,47 +3,19 @@
 
 # Wavy website
 
-This is Wavy's website and dashboard combo. It is made with Next.js and TailwindCSS to allow it to be snappy whilst being responsive at the same time. The dashboard part of it is coming soon.
+This is the Wavy website & dashboard combo website. It is written in Next.js (which is a framework around React) allowing it to feel very snappy whilst enabling traditional SEO options.
 
-## Tools and services used
+## For maintainers
 
-<table>
-  <tr>
-    <td align="center">
-        <a href="https://nextjs.org/">
-            <img src="https://simpleicons.org/icons/nextdotjs.svg" width="100px;" alt="Next.js"/>
-            <br/>
-            <sub>
-                <b>Next.js</b>
-            </sub>
-        </a>
-        <br/>
-    </td>
-    <td align="center">
-        <a href="https://tailwindcss.com/">
-            <img src="https://simpleicons.org/icons/tailwindcss.svg" width="100px;" alt="TailwindCSS"/>
-            <br/>
-            <sub>
-                <b>TailwindCSS</b>
-            </sub>
-        </a>
-        <br/>
-    </td>
-    <td align="center">
-        <a href="https://pages.cloudflare.com/">
-            <img src="https://simpleicons.org/icons/cloudflare.svg" width="100px;" alt="Cloudflare Pages"/>
-            <br/>
-            <sub>
-                <b>Cloudflare Pages</b>
-            </sub>
-        </a>
-        <br/>
-    </td>
-  </tr>
-</table>
+For those looking to maintain this codebase here are some of the basic things you'll need to know:
 
-## How to use
-This is yet to be added, for now you can use [Wavy's Discord server](https://discord.gg/Nbcf36Fge5) to ask for help.
+* We use yarn here, since it offers caching for dependencies. If you do not have yarn installed you can install it by running `npm i yarn -g` on your system.
+* This website is written in TypeScript, which is a superset of JavaScript. This means that it is fully compatible with JavaScript but also adds a lot of extra features. If you are not familiar with TypeScript you can read more about it [here](https://www.typescriptlang.org/).
+
+
+## Running locally
+
+After cloning / pulling the repository you should install the dependencies using `yarn`. Once that is done you can run the development server using `yarn dev`. This will start a development server on port 3000. You can access the website by going to `http://localhost:3000`.
 
 ## License
 See [LICENSE.MD](https://github.com/Wavy-Bot/website/blob/main/LICENSE.md).

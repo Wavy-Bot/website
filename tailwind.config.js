@@ -1,19 +1,16 @@
-const colors = require('tailwindcss/colors')
-
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}", "./layouts/**/*.{js,ts,jsx,tsx}"],
+  content: [
+    './pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './components/**/*.{js,ts,jsx,tsx,mdx}',
+    './layouts/**/*.{js,ts,jsx,tsx,mdx}',
+  ],
   theme: {
-    colors: {
-      white: colors.white,
-      black: colors.black,
-      gray: colors.stone,
-      amber: colors.amber
-    },
     extend: {
-      fontFamily: {
-        'sans': ['Oxygen']
-      }
-    }
+      backgroundImage: {
+        hero: "url(/images/hero.webp)"
+      },
+    },
   },
   plugins: [],
 }
