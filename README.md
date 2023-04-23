@@ -17,5 +17,9 @@ For those looking to maintain this codebase here are some of the basic things yo
 
 After cloning / pulling the repository you should install the dependencies using `yarn`. Once that is done you can run the development server using `yarn dev`. This will start a development server on port 3000. You can access the website by going to `http://localhost:3000`.
 
+## Deployment
+
+To deploy you'll have to open a pull request comparing `production` to `development`. Once that is done you can merge the pull request, or wait for someone to do so if you don't have sufficient permissions, and the website will be deployed to the production server.
+
 ## License
 See [LICENSE.MD](https://github.com/Wavy-Bot/website/blob/main/LICENSE.md).
